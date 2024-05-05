@@ -1,0 +1,56 @@
+body{
+    
+}
+.template{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.gwo-bwat{
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+}
+.imaj{
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    position: relative;
+}
+.minuteur{
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.enfomasyon{
+display: grid;
+grid-template-columns: 50px 1fr;
+padding-left: 5px;
+padding-right: 10px;
+}
+.foto{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+}
+.un{
+    background-color: blue;
+    margin-top: 0px;
+}
+.deux{
+    width: 40px;
+    height: 20px;
+    background-color: greenyellow;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    place-items: center;
+}
